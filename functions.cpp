@@ -27,7 +27,8 @@ void Child::setName(std::string s){
 }
 
 /**
- * [Child::getList returns a vector of all the children's names]
+ * [Child::getList prints the other children's names that are known by
+ * the current child object]
  */
 void Child::getList(){
         std::cout << getname() << " > ";
