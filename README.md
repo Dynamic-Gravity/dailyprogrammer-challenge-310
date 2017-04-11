@@ -53,3 +53,18 @@ Number of name in each kid list: 15
 # Credit
 
 This challenge was suggested by user /u/urbainvi on /r/dailyprogrammer_ideas, many thanks. If you have an idea, please share it there and we might use it!
+
+# To Run
+
+download and run with:
+
+`make run`
+
+`make challenge`
+
+regular and challenge mode, respectfully.
+
+or just type in `make` and then pass any text file via arguments.
+
+Example:
+`./c310.o input.txt`
