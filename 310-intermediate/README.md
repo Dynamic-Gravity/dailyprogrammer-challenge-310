@@ -1,6 +1,10 @@
 [/r/dailyprogrammer-challenges](https://www.reddit.com/r/dailyprogrammer/)
 
-[2017-04-12] Challenge #310 [Intermediate] Simplifying square roots
+[Challenge 310 Simplifying square roots](https://www.reddit.com/r/dailyprogrammer/comments/64y4cf/20170412_challenge_310_intermediate_simplifying/)
+
+## Diffilculty
+
+Intermediate
 
 ## Description
 
