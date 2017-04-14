@@ -6,7 +6,7 @@ LFLAGS := -Wall
 SOURCEDIR := src
 SOURCES := $(shell find $(SOURCEDIR) -name '*.cpp')
 
-BINARY := C310e.out
+BINARY := C310i.out
 INPUT := input.txt
 INPUT2 := input-challenge.txt
 

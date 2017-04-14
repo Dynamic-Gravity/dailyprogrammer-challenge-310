@@ -1,4 +1,4 @@
-dailyprogrammer-challenges
+[/r/dailyprogrammer-challenges](https://www.reddit.com/r/dailyprogrammer/)
 
 [2017-04-10] Challenge #310 [Easy] Kids Lotto
 
@@ -67,4 +67,4 @@ regular and challenge mode, respectfully.
 or just type in `make` and then pass any text file via arguments.
 
 Example:
-`./c310.o input.txt`
+`./C310e.out input.txt`

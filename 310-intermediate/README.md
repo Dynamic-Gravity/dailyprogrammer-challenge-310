@@ -1,58 +1,28 @@
-dailyprogrammer-challenges
+[/r/dailyprogrammer-challenges](https://www.reddit.com/r/dailyprogrammer/)
 
-[2017-04-10] Challenge #310 [Easy] Kids Lotto
+[2017-04-12] Challenge #310 [Intermediate] Simplifying square roots
 
-# Introduction
-Anna is a teacher, kids can sit where they want in her classroom every morning. She noticed that they always sit next to their closest firends but she would like to introduce mixity.
+## Description
 
-Her idea is to create a "lotto" game when she take the morning attendance. Every kid will have a paper with a limited number of names of its classmate. Each kid will claim their name in the sitting order. Every time a kid claim its name, all kids who have its name in their list can check it. The first kid who finish his list is the morning winner.
+Simplify square roots in the form `(a sqrt(b))/(c sqrt(d))`. A simplified radical should have no square roots in the denominator and no number in a square root should have a square factor. For example, the input `2 5 5 10 for a b c d`, respectively, should simplify to `1 2 5 where a=1, b=2, and c=5`.
 
-#  Details
-You have to create a program to help Anna as she often have a different class configuration.
+## Output description
 
-## Input
-Your program will input 3 elements:
+> a b c
 
-* A list of kids in class (separated by ";")
-* The number of kids names she want on each output list
+(d should not exist after simplifying)
 
-## Output
+#### Challenge input
 
-Your program should output the loto name list to give to kids in the morning.
+>45 1465 26 15
 
-* Each list sould precise which kid to give the list
-* Each kid must have a unique list
-* Lists have to be randomised (not in alphabetic order)
+#### Challenge output
 
+>15 879 26
 
-# Challenge Example
-## input
-List of kids:
+## Credit
 
-    Rebbeca Gann;Latosha Caraveo;Jim Bench;Carmelina Biles;Oda Wilhite;Arletha Eason
-
-Number of kids in list: 3
-
-## Example of output:
-
-    Oda Wilhite > Carmelina Biles; Arletha Eason; Jim Bench
-    Jim Bench > Arletha Eason;Oda Wilhite; Carmelina Biles
-    Latosha Caraveo > Carmelina Biles;Rebbeca Gann; Arletha Eason
-    Carmelina Biles > Oda Wilhite; Arletha Eason; Latosha Caraveo
-    Arletha Eason > Carmelina Biles;Jim Bench;Oda Wilhite
-    Rebbeca Gann > Latosha Caraveo;Jim Bench;Carmelina Biles
-
-
-# Challenge input
-
-    Rebbeca Gann;Latosha Caraveo;Jim Bench;Carmelina Biles;Oda Wilhite;Arletha Eason;Theresa Kaczorowski;Jane Cover;Melissa Wise;Jaime Plascencia;Sacha Pontes;Tarah Mccubbin;Pei Rall;Dixie Rosenblatt;Rosana Tavera;Ethyl Kingsley;Lesia Westray;Vina Goodpasture;Drema Radke;Grace Merritt;Lashay Mendenhall;Magali Samms;Tiffaney Thiry;Rikki Buckelew;Iris Tait;Janette Huskins;Donovan Tabor;Jeremy Montilla;Sena Sapien;Jennell Stiefel
-
-Number of name in each kid list: 15
-
-
-# Credit
-
-This challenge was suggested by user /u/urbainvi on /r/dailyprogrammer_ideas, many thanks. If you have an idea, please share it there and we might use it!
+This challenge was suggested by user /u/alchzh on /r/dailyprogrammer_ideas, many thanks. If you have an idea, please share it there and we might use it!
 
 # To Run
 
@@ -67,4 +37,4 @@ regular and challenge mode, respectfully.
 or just type in `make` and then pass any text file via arguments.
 
 Example:
-`./c310.o input.txt`
+`./C310i.out input.txt`
