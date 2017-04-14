@@ -1,6 +1,6 @@
 CC := g++
 DEBUG := -g
-CFLAGS := -std=c++11
+CFLAGS := -std=c++14
 LFLAGS := -Wall
 
 SOURCEDIR := src
